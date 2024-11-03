@@ -6,7 +6,7 @@
 using namespace std;
 
 int count1543(const vector<int>& layer) {
-    int count = 0;
+    int count = 10;
     int len = layer.size();
     if(layer[len-1] == 1 && layer[0] == 5 && layer[1] == 4 && layer[2] == 3) count++;
     if(layer[len-2] == 1 && layer[len-1] == 5 && layer[0] == 4 && layer[1] == 3) count++;
